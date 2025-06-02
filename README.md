@@ -31,3 +31,9 @@ This vulnerability can lead to session hijacking, phishing attacks, or redirecti
 ## Credits
 - Discovered by Prak Sokchea
 
+## Vulnerability Demonstration
+
+Below is a screenshot demonstrating the reflected XSS payload executing in the MikroTik Hotspot login page:
+
+![XSS Payload](./POC 1.png)
+
