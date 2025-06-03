@@ -10,7 +10,7 @@ A reflected Cross-Site Scripting (XSS) vulnerability was discovered in the Mikro
 ## Vulnerability Details
 - The vulnerability occurs when an attacker crafts a URL like:
   
-http://<router-ip>/login?dst=javascript:alert(3)
+http://target-ip/login?dst=javascript:alert(3)
 
 - When users visiting this URL reflects the JavaScript in the response, leading to script execution in the browser.
 
