@@ -35,7 +35,7 @@ This vulnerability can lead to session hijacking, phishing attacks, or redirecti
 
 Below is a screenshot demonstrating the reflected XSS payload executing in the MikroTik Hotspot login page:
 
-![XSS Payload](./POC%201.png)
+![XSS Payload](./POC1.png)
 ![XSS PoC](./POC%202.png)
 
 
